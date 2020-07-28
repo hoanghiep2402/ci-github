@@ -11,13 +11,7 @@ on:
 
 jobs:
   say_hello:
-
     runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        node-version: [ 12.x, 14.x]
-
     steps:
     - name: Print Hello
     - run: echo "Hello, I'm running on deploy server"
